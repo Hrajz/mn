@@ -47,11 +47,8 @@
     outline: none;
     border: none;
     background-color: white;
+    -webkit-tap-highlight-color: transparent;
 
-}
-#dots:focus {
-    outline: none;
-    background-color: white;
 }
 
 #show {
@@ -153,9 +150,7 @@
     font-size: 14px;
     outline: none;
     border: none;
-}
-.install:focus {
-    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .install p {
