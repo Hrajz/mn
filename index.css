@@ -42,8 +42,12 @@
     color: rgb(60, 60, 60);
     font-size: 25px;
     font-weight: bold;
-    margin-right: 24px;
+    margin-right: 25px;
     cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: white;
+
 }
 
 #show {
