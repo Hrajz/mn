@@ -11,7 +11,7 @@
     width: 100vw;
 }
 
-.box {
+#box {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -25,33 +25,40 @@
     width: 100%;
     margin: 0;
 }
-.second{
+
+.second {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
+
 .image-s {
     width: 85%;
     margin: 0;
 }
-#dots{
+
+#dots {
     color: rgb(60, 60, 60);
-    font-size: 23px;
-    margin-right: 26px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 24px;
     cursor: pointer;
 }
-#show{
-    width: 170px;
+
+#show {
+    width: 200px;
     position: fixed;
-    top: 60px;
-    margin-left: 150px;
+    top: 45px;
+    margin-left: 130px;
     border-radius: 5px;
     transition: 0.3s ease;
 }
-.hide{
+
+.hide {
     display: none;
 }
+
 .app {
     display: flex;
     flex-direction: row;
@@ -133,10 +140,14 @@
     border-radius: 22px;
     padding: 11.5px;
     text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    outline: none;
+    border: none;
 }
 
 .install p {
-    user-select: none;
     color: white;
     cursor: pointer;
     font-size: 14px;
@@ -262,13 +273,3 @@
     position: absolute;
     top: 3020px;
 }
-
-/* .btn {
-    width: 30px;
-    height: 30px;
-    background-color: black;
-    border-radius: 50%;
-    position: relative;
-    top: -710px;
-    right: -174px;
-} */
