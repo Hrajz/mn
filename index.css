@@ -49,6 +49,10 @@
     background-color: white;
 
 }
+#dots:focus {
+    outline: none;
+    background-color: white;
+}
 
 #show {
     width: 200px;
@@ -149,6 +153,9 @@
     font-size: 14px;
     outline: none;
     border: none;
+}
+.install:focus {
+    outline: none;
 }
 
 .install p {
